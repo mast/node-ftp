@@ -1,3 +1,7 @@
+# CHANGES
+
+Added new timeout and event to detect server broken connection. 
+
 Description
 ===========
 
@@ -139,7 +143,7 @@ Methods
           * group - _string_ - An empty string or any combination of 'r', 'w', 'x'.
 
           * other - _string_ - An empty string or any combination of 'r', 'w', 'x'.
-     
+
       * owner - _string_ - The user name or ID that this entry belongs to **(*NIX only)**.
 
       * group - _string_ - The group name or ID that this entry belongs to **(*NIX only)**.
